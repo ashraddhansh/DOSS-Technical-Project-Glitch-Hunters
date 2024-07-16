@@ -18,7 +18,7 @@ root = tk.Tk()
 root.title("Location to Lat/Long")
 root.geometry("600x400")
 # Load background image
-background_image = Image.open("/home/tomatopc/coder/learn/gui projects/background_image.jpeg")
+background_image = Image.open("./background_image.jpeg")
 background_photo = ImageTk.PhotoImage(background_image)
 
 # Set background image
