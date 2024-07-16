@@ -84,7 +84,7 @@ if __name__ == "__main__":
     app = S3UploaderApp(root)
     root.geometry('1200x800')
     root.configure(background="#E79D24")
-    text_label = tk.Label(root, text="S3 Bucket", fg='white', bg='#E79D24')
+    text_label = tk.Label(root, text="S3 Bucket Manager", fg='white', bg='#E79D24')
     text_label.pack(pady=(10, 10))
     text_label.config(font=("Vandana", 25))
     root.mainloop()

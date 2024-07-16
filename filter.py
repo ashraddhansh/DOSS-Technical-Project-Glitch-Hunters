@@ -67,7 +67,7 @@ def button5_click(camera_frame):
     
     
 root = Tk()
-root.title("Snapchat on Steroids")
+root.title("Camera Filter using CV2")
 root.geometry('1200x800')
 root.configure(background="#FFFF00")
 

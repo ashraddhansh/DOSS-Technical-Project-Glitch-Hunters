@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import cohere
 
 # Initialize the Cohere client
-api_key = 'O4y4kLS1cYFwUcLm1E3IIq59D23Tm0Pvivz1st5B'
+api_key = 'use your own'
 co = cohere.Client(api_key)
 
 def send_message():

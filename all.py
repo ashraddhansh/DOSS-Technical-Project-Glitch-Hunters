@@ -5,10 +5,10 @@ def run_python_file(file_path):
     subprocess.Popen(['python', file_path])
 
 def button1_clicked():
-    run_python_file("./snapchatripoff.py")
+    run_python_file("./filter.py")
 
 def button2_clicked():
-    run_python_file("./chadmaps.py")
+    run_python_file("./latlon.py")
 
 def button3_clicked():
     run_python_file("./emai_gui.py")

@@ -59,7 +59,7 @@ root.title("AWS Instance Controller")
 root.geometry('1200x800')
 root.configure(background="#88B752")
 
-text_label = tk.Label(root, text="AWS on Steroids", fg='black', bg='#88B752')
+text_label = tk.Label(root, text="AWS Control Panel", fg='black', bg='#88B752')
 text_label.pack(pady=(50, 10))
 text_label.config(font=("Vandana", 25))
 
