@@ -21,7 +21,7 @@ class EC2ControlApp:
         print("EC2 instance started.")
 
     def stop_instance(self):
-        subprocess.call(["aws", "ec2", "stop-instances", "--instance-ids", "i-059abb85ac6b6e6b2"])
+        subprocess.call(["aws", "ec2", "stop-instances", "--instance-ids", "enter instance id where website is being hosted"])
         print("EC2 instance stopped.")
 
 root = tk.Tk()
