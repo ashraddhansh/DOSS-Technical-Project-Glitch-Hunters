@@ -1,3 +1,7 @@
 tk
 opencv-python
 geopy
+cvzone
+mediapipe
+boto3
+pynput
